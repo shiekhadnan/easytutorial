@@ -9,6 +9,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1635,12 +1636,12 @@ img:hover{
 
 /* anchor */
 a:hover{
-	text-decoration: none;
+	background-color: green;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(0, 0, 0, 0);	
 	padding: 5px;
-	padding: 10px;
 	font-weight: bold;
-	color: blue;
+	color: white;
+	
 
 }
 
@@ -1660,7 +1661,7 @@ a:hover{
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
-		font-weight: bold;
+		font-weight: bolder;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
@@ -2223,7 +2224,7 @@ a:hover{
 /* Icon */
 
 	.icon {
-		text-decoration: none;
+		text-decoration:underline;
 		border-bottom: none;
 		position: relative;
 	}
@@ -2751,12 +2752,12 @@ a:hover{
 		#header .logo {
 			color: #ffffff;
 			display: inline-block;
-			font-weight: 600;
+			font-weight: bolder;
 			height: inherit;
 			left: 0;
 			line-height: inherit;
 			margin: 0;
-			padding: 0;
+			padding: 0 0.5em;
 			position: absolute;
 			top: 0;
 			font-size: 1em;
@@ -2768,15 +2769,12 @@ a:hover{
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
-			padding: 0 0.75em;
+			padding: 0 0.5em;
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			font-weight: bolder;
 		}
 
-			#header a:hover {
-				color: #ffffff;
-			}
 
 			#header a:last-child {
 				padding-right: 0;
@@ -2878,6 +2876,7 @@ a:hover{
 			transform: translatex(0);
 			box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
+			color: white;
 		}
 
 		#navPanel a:not(.close) {
@@ -3015,6 +3014,7 @@ a:hover{
 
 /* Footer */
 
+		
 	#footer .inner {
 		border-top: 1px solid #dbdbdb;
 		padding-top: 3em;
