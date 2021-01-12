@@ -2766,7 +2766,7 @@
 			left: 0;
 			line-height: inherit;
 			margin: 0;
-			padding: 0;
+			padding: auto;
 			position: absolute;
 			top: 0;
 			font-size: 1em;
@@ -2786,6 +2786,8 @@
 
 			#header a:hover {
 				color: #ffffff;
+				font-size: large;
+				font-weight: bold;
 			}
 
 			#header a:last-child {
