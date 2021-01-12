@@ -1636,9 +1636,23 @@
 		color: #5385c1;
 		text-decoration: underline;
 	}
+	
+	img:hover  {
+		text-decoration: none;
+		border: solid 1px #CCC;
+		-moz-box-shadow: 2px 2px 5px rgb(5, 5, 5);
+		-webkit-box-shadow: 2px 2px 5px #999;
+		box-shadow: 2px 2px 20px #999;
+		}
 
-		a:hover {
-			text-decoration: none;
+
+	a:hover{
+		text-decoration: none;
+		border: solid 1px #CCC;
+		-moz-box-shadow: 1px 1px 5px #999;
+		-webkit-box-shadow: 1px 1px 5px #999;
+		box-shadow: 1px 1px 5px #999;
+		padding: 5px;
 		}
 
 	strong, b {
