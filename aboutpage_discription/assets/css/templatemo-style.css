@@ -809,3 +809,10 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
+.contact-info
+{
+    font-size: 65px;opacity:10; padding-right: 30px;
+    word-spacing: 30px;
+    
+}
+a:hover, a:active {font-size: 110%; color: red;quotes:}
